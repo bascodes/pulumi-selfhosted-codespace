@@ -1,0 +1,15 @@
+{
+    "name": "selfhosted-codespace",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/command": "^0.0.1-testwindows.signing",
+        "@pulumi/docker": "^4.6.1",
+        "@pulumi/hcloud": "^1.21.2",
+        "@pulumi/pulumi": "^3.113.0",
+        "vscode-url": "^0.0.2"
+    }
+}

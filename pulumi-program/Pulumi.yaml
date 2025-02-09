@@ -1,0 +1,21 @@
+name: selfhosted-codespace
+description: A minimal TypeScript Pulumi program
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+config:
+  userPublicKeyPath: "/home/bas/.ssh/id_ed25519.pub"
+  userPrivateKeyPath: "/home/bas/.ssh/id_ed25519"
+  workspaceExportDirectory: "/home/bas/_Code/bascodes/pulumi-selfhosted-codespace"
+  devcontainerConfigPath: "../.devcontainer/demo/devcontainer.json"
+  localDockerHost: "unix:///var/run/docker.sock"
+  sshdPort: 2222
+  userName: "bas"
+  userUid: 1000
+  userGid: 1000
+  hcloudServerType: "cax11"
+  hcloudServerLocation: "nbg1"
+  pulumi:tags:
+    value:
+      pulumi:template: typescript

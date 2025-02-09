@@ -1,0 +1,13 @@
+
+{
+    "name": "[Demo] Debian Devcontainer",
+
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "code",
+    "workspaceFolder": "/workspace",
+
+    "features": {
+        // "ghcr.io/sebst/devcontainer-features/pkgx:1": {}
+    }
+
+}
