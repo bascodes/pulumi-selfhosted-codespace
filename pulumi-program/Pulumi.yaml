@@ -1,5 +1,5 @@
 name: selfhosted-codespace
-description: A minimal TypeScript Pulumi program
+description: A Pulumi program to run a devcontainer in the Hetzner Cloud
 runtime:
   name: nodejs
   options:
